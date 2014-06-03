@@ -40,6 +40,7 @@ gem 'bootstrap-generators', '~> 3.1.1'
 group :development, :test do
     gem 'capybara'
     gem 'rspec-rails', '~> 2.99'
+    gem "factory_girl_rails", "~> 4.0"
 end
 # gem 'spring',        
 
