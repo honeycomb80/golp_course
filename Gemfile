@@ -34,8 +34,12 @@ group :development do
 	gem 'pry-byebug'
 end
 
+gem 'bootstrap-sass'
+gem 'bootstrap-generators', '~> 3.1.1'
+
 group :development, :test do
-    gem 'rspec-rails'
+    gem 'capybara'
+    gem 'rspec-rails', '~> 2.99'
 end
 # gem 'spring',        
 
