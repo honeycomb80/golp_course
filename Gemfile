@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'capybara'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use postgresql as the database for Active Record
@@ -35,7 +35,7 @@ group :development do
 end
 
 group :development, :test do
-    gem 'rspec-rails', '2.99'
+    gem 'rspec-rails'
 end
 # gem 'spring',        
 
