@@ -1,28 +1,23 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**.01**
+Built app "Golp Course", including rspec, and added the following gems:
 
-Things you may want to cover:
+	**better_errors** -- Better Errors replaces the standard Rails error page with a much better and more useful error page.
+	**quiet_assets** -- Quiet Assets turns off the Rails asset pipeline log. This means that it suppresses messages in your development log.
+	**meta_request** -- Supporting gem for Rails Panel (Google Chrome extension for Rails development)
+	awesome_print -- Awesome Print is a Ruby library that pretty prints Ruby objects in full color exposing their internal structure with proper indentation.
+	**pry-rails** -- This is a small gem which causes rails console to open pry.
+	**binding_of_caller** -- Allows access to bindings arbitrarily far up the call stack, not limited to just the immediate caller.
+	**pry-byebug** -- Adds step, next, finish and continue commands and breakpoints to Pry using byebug.
 
-* Ruby version
+Bundle also included gem 'pg' (requires server use not permitted by sqlite3).
 
-* System dependencies
+**.02**
+Added gem 'capybara' (Capybara helps you test web applications by simulating how a real user would interact with your app.)  Also, added /helloworld route, updated hello_world spec helper (gave commands for rspec to look for helloworld_path), removed some automatically generated files/routes.
 
-* Configuration
+**.03**
+Added gems for 'bootstrap' (which is a front-end framework for faster and easier web development) for responsive design (which is is a web design approach aimed at providing easy reading and navigation with a minimum of resizing, panning, and scrolling).  Changed color of the inverse navbar in bootstrap.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+**.04**
+Created scaffolding, migrated the database.
