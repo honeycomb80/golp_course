@@ -21,3 +21,9 @@ Added gems for 'bootstrap' (which is a front-end framework for faster and easier
 
 **.04**
 Created scaffolding, migrated the database.
+
+**.05**
+Attempted setting up validations, factory girl.  Incomplete.
+
+**.06**
+Added gem faker & forgery(for fake user test info)
