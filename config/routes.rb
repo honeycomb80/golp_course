@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  devise_for :users
+root 'pages#helloworld'
+
   resources :things
 
 get "/helloworld", to: "pages#helloworld", as: "helloworld"
