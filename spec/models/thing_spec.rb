@@ -10,5 +10,5 @@ describe Thing do
   pending "add some examples to (or delete) #{__FILE__}"
 end
 
-it 
-	thing = build(:thing)
+# it 
+# 	thing = build(:thing)
