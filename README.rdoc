@@ -26,4 +26,7 @@ Created scaffolding, migrated the database.
 Attempted setting up validations, factory girl.  Incomplete.
 
 **.06**
-Added gem faker & forgery(for fake user test info)
+Added gem faker & forgery(for fake user test info).  Implemented 3 find_or_create_by (instead of find_or_initialize_by)  Installed forgery, used forgery in seed file to create 200 random, fake entries.  
+
+**.07**
+Added gem devise, bundled, installed, created 

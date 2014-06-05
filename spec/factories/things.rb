@@ -1,9 +1,8 @@
 FactoryGirl.define do
 
   factory :thing do
-    name "Thingy McThing"
-    description  "It's a whatchamacallit."
-    admin false
+    name { Faker::Lorem.words(2) }
+    description  { Faker::Lorem.words(8) }
   end
 
   
