@@ -12,7 +12,7 @@
       <tr>
             <th>Name</th>
             <th>Description</th>
-            <th></th>
+            <th>User ID</th>
         <th></th>
         <th></th>
       </tr>
@@ -22,6 +22,7 @@
       <%= content_tag_for(:tr, @things) do |thing| %>
             <td><%= thing.name %></td>
             <td><%= thing.description %></td>
+            <td><%= thing.user_id %></td>
             <td><%= link_to 'Show', thing %></td>
         <td><%= link_to 'Edit', edit_thing_path(thing) %></td>
         <td><%= link_to 'Destroy', thing, method: :delete, data: { confirm: 'Are you sure?' } %></td>

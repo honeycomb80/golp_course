@@ -14,6 +14,6 @@ Thing.find_or_create_by(name: "Curly")
 
 if Thing.all.count < 200 
 	200.times do
-		Thing.create(name: Forgery(:lorem_ipsum).words(2, :random => true), description: Forgery(:lorem_ipsum).words(5, :random => true))
+		Thing.create(name: Forgery(:lorem_ipsum).words(2, :random => true), description: Forgery(:lorem_ipsum).words(5, :random => true), user_id: Forgery(:basic).number(:random => true))
 	end
 end
