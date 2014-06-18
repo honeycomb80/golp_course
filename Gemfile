@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use postgresql as the database for Active Record
@@ -34,9 +34,18 @@ group :development do
 	gem 'pry-byebug'
 end
 
+gem 'bootstrap-sass'
+gem 'bootstrap-generators', '~> 3.1.1'
+
 group :development, :test do
-    gem 'rspec-rails'
+    gem 'capybara'
+    gem 'rspec-rails', '~> 2.99'
+    gem "factory_girl_rails", "~> 4.0"
+    gem 'faker'
+	gem 'forgery'
 end
+
+
 # gem 'spring',        
 
 # Use ActiveModel has_secure_password
